@@ -1,0 +1,15 @@
+#Created by: Daniel Jeffrey (with Code from TEJ2OR)
+#Created on: December 5, 2022
+#This program displays distance from a distance sensor on a Micro:bit
+from microbit import *
+
+class HCSR04: 
+
+
+  ...
+sonar = HCSR04()
+display.show(Image.HEART)
+
+while True
+display.show(sonar.distance_mm()/10)
+sleep(500)
